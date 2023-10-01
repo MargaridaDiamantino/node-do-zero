@@ -1,0 +1,24 @@
+POST http://localhost:3333/videos 
+Content-type: application/json
+
+{
+    "title":"video 01",
+    "description":" tudo node ",
+    "duration":180
+}
+
+###
+GET http://localhost:3333/videos
+
+###
+PUT  http://localhost:3333/videos/81d5a82a-5194-49ec-a571-b78365f60a22
+Content-type: application/json
+
+{
+    "title":"video 03",
+    "description":" primeira aula ",
+    "duration":100
+}
+
+###
+DELETE http://localhost:3333/videos/d00a8204-235d-42ed-b118-712848d6b088
